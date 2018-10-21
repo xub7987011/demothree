@@ -21,6 +21,8 @@ public class UserEntity  implements Serializable {
     @Column(name = "address")
     private  String address;
 
+    private String fadd;
+
     public long getId() {
         return id;
     }
